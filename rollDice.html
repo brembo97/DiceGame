@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="rollDice.css" rel="stylesheet" type="text/css">
+    <title>Roll the Dice Game</title>
+</head>
+<body>
+    <div class="wrapper">       
+        <div class="player-1-panel active">
+                <div class="player-name active" id="player1">Player 1</div>
+                <div class="player-score" id="score1">0</div>
+                <div class="player-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current1">0</div>
+                </div>
+        </div>
+        <div class="player-2-panel">
+                <div class="player-name" id="player2">Player 2</div>
+                <div class="player-score" id="score2">0</div>
+                <div class="player-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current2">0</div>
+                </div>
+        </div>
+
+        <input type="text" placeholder="Final Score" class="final-score">
+        <button id="btn-new"><i class="ion-ios-plus-outline"></i>New Game</button>
+        <button id="btn-roll"><i class="ion-ios-loop"></i>Roll Dice</button>
+        <button id="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+    
+        <img class="dice" id="dice1">
+        <img class="dice" id="dice2">
+    </div>
+    
+</body>
+
+<script src="rollDice.js"></script>
+
+</html>
